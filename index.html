@@ -7,9 +7,20 @@
 	<title>Document</title>
 </head>
 <body ng-controller="mainCtrl">
-	<div>{{test}}</div>
-	<div>{{pokeIsh}}</div>
 	
+	<!--<div>Name: {{pokeIsh.name}}</div>-->
+	<!--<div>Defense: {{pokeIsh.defense}}</div>-->
+	<!--<div>Speed: {{pokeIsh.speed}}</div>-->
+	<!--<div>Weight: {{pokeIsh.weight}}</div>-->
+	<button class="bulbMoves" ng-click="getData()">Bulbasaur Move List</button>
+	<div class="movesOnLeft" ng-repeat="move in moves">Moves: {{move.name}}<button ng-click='moveDataFunc(move.resource_uri)'>Get Move Details</button></div>
+	<div class="moveIsh" ng-hide="showHide">
+		<div>Name: {{moveDetails.name}}</div>
+		<div>Power: {{moveDetails.power}}</div>
+		<div>Hit-points: {{moveDetails.pp}}</div>
+		<div>Description: {{moveDetails.description}}</div>
+		
+	</div>
 	
 	
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
