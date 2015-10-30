@@ -22,10 +22,18 @@ body {
 
 .movesOnLeft {
 	padding-top: 10px;
+	background-color: white;
+	float: left;
+		
 	
 }
 
 .bulbMoves {
 	font-size: 30px;
 	border-radius: 20px;
+	color: white;
+}
+
+.colLeft {
+	width: 20%;
 }
