@@ -2,6 +2,13 @@
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+
+	background: url("http://img13.deviantart.net/367e/i/2006/135/1/4/may_s_bulbasaur_s_vine_whip_by_sajirou.jpg");
+	background-size: 20%;
+	
+}
+
 
 .moveIsh {
 	float: right;
